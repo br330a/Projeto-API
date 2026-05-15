@@ -70,11 +70,12 @@ main{
     border-radius:20px;
     width:70%;
     margin-bottom:30px;
+    transition: 0.3s
 }
 #btn-texto:hover{
-    transform:translateY(-5px);
+    transform:translateY(-3px);
     color:var(--color2);
-    background: #CBC3E3;
+    background: #C8A;
     font-weight:900;
 }
 #saida{
@@ -86,6 +87,7 @@ main{
     text-align:left;
     word-wrap:break-word;/*espaçamento entre Palavras*/
     color:var(--color2);
+    
 }
 
 #lista-historico {
