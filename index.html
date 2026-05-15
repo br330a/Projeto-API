@@ -9,10 +9,24 @@
     <!--API Externa-->
     <!--link: é o cdn-->
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script> 
-    
+
 </head>
 <body>
-    
+    <header>
+        <h1>SCANNER DE TEXTO</h1>
+    </header>
+    <main>
+        <div class="container">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas"></canvas> <!--canvas: usado para games-->
+            <button id="btn-texto">Capturar Texto</button>
+            <div id="saida">Lendo Texto...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; -2026- Todos os Direitos Reservados</p>
+    </footer>
     <script src="./src/js/script.js"></script>
 </body>
 </html>
